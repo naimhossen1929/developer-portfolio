@@ -70,10 +70,14 @@ nav li {
 
 .banner {
     display: flex;
-    margin: 50px 230px 0 226px;
+    margin: 50px 130px 0 226px;
     align-items: center;
+    justify-content: space-between;
 
 
+}
+.banner div-btn{
+    gap: 30px;
 }
 
 .banner-title {
@@ -224,7 +228,7 @@ main {
 .contact{
     display: flex;
     margin-top: 113px;
-    padding: 130px 230px;
+    padding: 130px 0px;
     background: #FFF8F3;
     gap: 117px;
 }
@@ -246,4 +250,8 @@ input{
 .contact-description{
     margin-top: 20px;
     margin-bottom: 30px;
+}
+.div-btn{
+    display: flex;
+    gap: 30px;
 }
