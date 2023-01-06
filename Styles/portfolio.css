@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.btn-primary {
+    height: 64px;
+    padding: 18px 35px 19px 36px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    align-items: center;
+}
+
+.btn-primary-2 {
+    height: 64px;
+
+    padding: 19px 23px 18px 24px;
+    background: #FFF8F3;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* Header and Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px 0 226px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* Bannner Style */
+
+.banner {
+    display: flex;
+    margin: 50px 230px 0 226px;
+    align-items: center;
+
+
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-subtitle {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+/* About section  */
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 157px 131px 156px;
+}
+.section-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+font-size: 20px;
+}
